@@ -17,4 +17,5 @@ export const telegram = (req: Request, res: Response) => {
           console.log(response.data.url);
           console.log(response.data);
       })();
+    res.redirect('/api/');
 }
